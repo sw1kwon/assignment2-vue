@@ -28,3 +28,6 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+
+<!-- Angular의 styles.css를 글로벌 스타일로 추가 -->
+<style src="./assets/styles.css"></style>
