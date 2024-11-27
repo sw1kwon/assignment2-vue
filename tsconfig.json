@@ -3,25 +3,27 @@
   "compilerOptions": {
     "outDir": "./dist",
     "strict": true,
+    "jsx": "preserve",
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "importHelpers": true,
-    "target": "ES2022",
+    "target": "ESNext",
     "module": "ESNext",
     "lib": [
       "ES2022",
       "dom"
     ]
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "exclude": ["node_modules"]
 }
