@@ -1,6 +1,6 @@
 {
   "name": "vue-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -15,7 +15,7 @@
     "axios": "^1.7.7",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
-    "@fortawesome/vue-fontawesome": "^4.0.0"
+    "@fortawesome/vue-fontawesome": "^3.1.0"
   },
   "devDependencies": {
     "@vue/cli-service": "~5.0.0",
@@ -24,6 +24,7 @@
     "sass": "^1.66.0",
     "sass-loader": "^13.0.0",
     "eslint": "^8.57.1",
-    "eslint-plugin-vue": "^9.31.0"
+    "eslint-plugin-vue": "^9.31.0",
+    "@vue/eslint-config-standard": "^7.1.0"
   }
 }
