@@ -25,8 +25,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Vue project
 - Please pick a preset:
+
 Manually select features
+
 - Check the features needed for your project:
+
 Choose Vue version  
 Babel  
 TypeScript  
@@ -34,15 +37,27 @@ Progressive Web App (PWA) Support
 Router  
 Vuex  
 Linter/Formatter
+
 - Choose a version of Vue.js
+
 3.x
+
 - Use class-style component syntax?
+
 Y
+
 - Use history mode for router?
+
 Y
+
 - Pick a linter / formatter config:
+
 ESLint + Standard config
+
 - Pick additional lint features:
+
 Lint on save
+
 - Where do you prefer placing config for Babel, ESLint, etc.?
+
 In dedicated config files
