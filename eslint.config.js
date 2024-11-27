@@ -1,11 +1,12 @@
 import vue from 'eslint-plugin-vue';
+import typescriptParser from '@typescript-eslint/parser';
 import typescript from '@typescript-eslint/eslint-plugin';
 
 export default [
   {
     files: ['**/*.ts', '**/*.vue'], // 적용할 파일 패턴
     languageOptions: {
-      parser: '@typescript-eslint/parser',
+      parser: typescriptParser,
       parserOptions: {
         ecmaVersion: 2020,
         sourceType: 'module'
